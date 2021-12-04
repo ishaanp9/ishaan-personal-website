@@ -24,50 +24,117 @@ function App() {
       </p>
       <div className="update-box-container">
         <p className="update-box-text">
-        🚀 Currently, working on Project Sidewalk through the Makeability Lab at
-          at UW. Also learning about Blockchain and it's applications in the
-          real world. Oh yeah, start-up idea coming soon. Loading...
+          🚀 <span style={{ fontWeight: 'bold' }}>Currently,</span> working on
+          Project Sidewalk through the Makeability Lab at at UW. Also learning
+          about Blockchain and it's applications in the real world. Oh yeah,
+          start-up idea coming soon. Loading...
         </p>
       </div>
       <div className="links-container">
         <a className="link-item label-orange">email</a>
         <a className="link-item label-yellow">resume</a>
-        <a href="https://github.com/ishaanp9" target="_blank" className="link-item label-red">github</a>
-        <a href="https://www.linkedin.com/in/ishaanpuri/" target="_blank" className="link-item label-darkblue">linkedin</a>
-        <a href="https://twitter.com/ishaanp9" target="_blank" className="link-item label-lightblue">twitter</a>
-        <a href="http://open.spotify.com/user/31hbehwc4yh2h5xvpp4ep4meu52u" target="_blank" className="link-item label-green">spotify</a>
+        <a
+          href="https://github.com/ishaanp9"
+          target="_blank"
+          className="link-item label-red"
+        >
+          github
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ishaanpuri/"
+          target="_blank"
+          className="link-item label-darkblue"
+        >
+          linkedin
+        </a>
+        <a
+          href="https://twitter.com/ishaanp9"
+          target="_blank"
+          className="link-item label-lightblue"
+        >
+          twitter
+        </a>
+        <a
+          href="http://open.spotify.com/user/31hbehwc4yh2h5xvpp4ep4meu52u"
+          target="_blank"
+          className="link-item label-green"
+        >
+          spotify
+        </a>
       </div>
       <hr className="component-divider" />
       {/* divider */}
-      <p className="component-header">Welcome to me. 🔥</p>
+      <p style={{ display: 'flex', alignItems: 'center' }}>
+        <span className="component-header">Welcome to me.</span> 🔥
+      </p>
       <p className="component-text-general">
-        Lacinia at quis risus sed vulputate odio. Ut sem nulla pharetra diam sit
-        amet. Magna eget est lorem ipsum dolor. Dignissim suspendisse in est
-        ante in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.
-        Proin sed libero enim sed.
+        I'm a 19 y/o college student with a passion for amazing products and new
+        technologies. In my free time, I love to code, work out, listen to
+        podcasts, read, and keep up with the Seattle Seahawks and Seattle
+        Mariners ⚾
         <br />
-        Lacinia at quis risus sed vulputate odio. Ut sem nulla pharetra diam sit
-        amet. Magna eget est lorem ipsum dolor. Dignissim suspendisse in est
-        ante in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.
-        Proin sed libero enim sed.
+        <br />
+        Overall, I am interested in product development, user interface design,
+        blockchain, and artificial intellegence (to name a few) ⚙️
       </p>
       <hr className="component-divider" />
       {/* divider */}
-      <p className="component-header">I like to do stuff. 👨‍💻</p>
+      <p style={{ display: 'flex', alignItems: 'center' }}>
+        <span className="component-header">I like to do stuff.</span> 👨‍💻
+      </p>
       <p className="component-text-general">
-        Lacinia at quis risus sed vulputate odio. Ut sem nulla pharetra diam sit
-        amet. Magna eget est lorem ipsum dolor. Dignissim suspendisse in est
-        ante in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.
-        Proin sed libero enim sed.
+        {/* Spogo */}
+        Currently, Conducting undergraduate research at the Makeability Lab at
+        UW.
         <br />
-        Lacinia at quis risus sed vulputate odio. Ut sem nulla pharetra diam sit
-        amet. Magna eget est lorem ipsum dolor. Dignissim suspendisse in est
-        ante in. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.
-        Proin sed libero enim sed.
+        <br />
+        👉 Working on Project Sidewalk, using computer vision, crowdsoucing, and
+        online map imagery with the goal to transform the ways in which
+        accessibility information is collected and visualized for every
+        sidewalk, street, and building facade across the globe.
+        <br />
+        <br />
+        Some other highlights 🎥
+        <br />
+        <br />
+        I co-founded a start-up, Spogo, last summer, a platform to connect
+        college athletes to monetizable opportunities.
+        <br />
+        <br />
+        👉 Generated Pre-Seed investor interest.
+        <br />
+        👉 Top 10% (out of 15,000 apps worldwide) of all Y-Combinator
+        applications for the W22 batch.
+        <br />
+        👉 Mentored by two successful entrepenuers (one recently sold his
+        company to Microsoft 🤯)
+        <br />
+        👉 Learned a ton!
+        <br />
+        👉 Although, I have stopped working on Spogo, I'm excited about my
+        future in the start-up world 🌎.
+        <br />
+        <br />
+        Interned at e24 Technolgies.
+        <br />
+        <br />
+        👉 Used Python and the NLTK Toolkit to transcribe phone conversations to
+        a short summary with key points and insights.
+        <br />
+        <br />
+        In High School:
+        <br />
+        <br />
+        Founded Technolgy Student Association Chapter.
+        <br />
+        Placed 3rd in State FBLA Mobile Application Development Competition.
+        <br />
       </p>
       <hr className="component-divider" />
       {/* divider */}
-      <p className="component-header">A peek into my life. 👀</p>
+      <p style={{ display: 'flex', alignItems: 'center' }}>
+        <span className="component-header">A peek into my life.</span> 👀
+      </p>
       {/* <p className="component-text-general">This the real me.</p> */}
       <div className="first-three">
         <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -114,7 +181,7 @@ function App() {
         </div>
       </div>
       <div className="last-two">
-        <div style={{ display: 'flex', flexDirection: 'column', width: "70%" }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: '70%' }}>
           <p className="component-header">Reading...</p>
           <p className="list-component-container">
             <div className="list-component-item">
@@ -143,7 +210,7 @@ function App() {
           </p>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', width: "30%" }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: '30%' }}>
           <p className="component-header">Browsing...</p>
           <p className="list-component-container">
             Tech Crunch
