@@ -212,3 +212,31 @@
   display: flex;
   flex-direction: row;
 }
+
+.bold-headline-text {
+  
+}
+
+.arrrow-list {
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  list-style-position: outside;
+}
+
+.arrrow-list li:before {
+  content: "→ ";
+}
+
+.li-item {
+  font-size: 15.5px;
+  margin-bottom: 5px;
+}
+
+.component-text-general {
+  margin: 1% 0px;
+}
+
+.link::after {
+  content: " ⮐" ;
+}

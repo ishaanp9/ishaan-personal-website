@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* Here we gonna have my name */}
       <p className="title">
         Hi, I'm <span className="name-text">Ishaan Puri </span> 👋
       </p>
@@ -26,8 +25,8 @@ function App() {
         <p className="update-box-text">
           🚀 <span style={{ fontWeight: 'bold' }}>Currently,</span> working on
           Project Sidewalk through the Makeability Lab at at UW. Also learning
-          about Blockchain and it's applications in the real world. Oh yeah,
-          start-up idea coming soon. Loading...
+          about Blockchain + Web3 and it's applications in the real world. Oh
+          yeah, start-up idea coming soon. Loading...
         </p>
       </div>
       <div className="links-container">
@@ -65,7 +64,10 @@ function App() {
       <hr className="component-divider" />
       {/* divider */}
       <p style={{ display: 'flex', alignItems: 'center' }}>
-        <span className="component-header">Welcome to me.</span> 🔥
+        <span className="component-header">
+          Welcome to <span style={{ color: ' #A7226E ' }}>me</span>.
+        </span>{' '}
+        🔥
       </p>
       <p className="component-text-general">
         I'm a 19 y/o college student with a passion for amazing products and new
@@ -75,72 +77,117 @@ function App() {
         <br />
         <br />
         Overall, I am interested in product development, user interface design,
-        blockchain, and artificial intellegence (to name a few) ⚙️
+        blockchain, web3, and artificial intellegence (to name a few) ⚙️
       </p>
       <hr className="component-divider" />
       {/* divider */}
       <p style={{ display: 'flex', alignItems: 'center' }}>
-        <span className="component-header">I like to do stuff.</span> 👨‍💻
+        <span className="component-header">
+          Keeping <span style={{ color: ' #2F9599 ' }}>myself busy.</span>
+        </span>{' '}
+        🏃
       </p>
-      <p className="component-text-general">
-        {/* Spogo */}
-        Currently, Conducting undergraduate research at the Makeability Lab at
-        UW.
-        <br />
-        <br />
-        👉 Working on Project Sidewalk, using computer vision, crowdsoucing, and
-        online map imagery with the goal to transform the ways in which
-        accessibility information is collected and visualized for every
-        sidewalk, street, and building facade across the globe.
-        <br />
-        <br />
-        Some other highlights 🎥
-        <br />
-        <br />
-        I co-founded a start-up, Spogo, last summer, a platform to connect
-        college athletes to monetizable opportunities.
-        <br />
-        <br />
-        👉 Generated Pre-Seed investor interest.
-        <br />
-        👉 Top 10% (out of 15,000 apps worldwide) of all Y-Combinator
-        applications for the W22 batch.
-        <br />
-        👉 Mentored by two successful entrepenuers (one recently sold his
-        company to Microsoft 🤯)
-        <br />
-        👉 Learned a ton!
-        <br />
-        👉 Although, I have stopped working on Spogo, I'm excited about my
-        future in the start-up world 🌎.
-        <br />
-        <br />
-        Interned at e24 Technolgies.
-        <br />
-        <br />
-        👉 Used Python and the NLTK Toolkit to transcribe phone conversations to
-        a short summary with key points and insights.
-        <br />
-        <br />
-        In High School:
-        <br />
-        <br />
-        Founded Technolgy Student Association Chapter.
-        <br />
-        Placed 3rd in State FBLA Mobile Application Development Competition.
-        <br />
-      </p>
+      <p className="component-text-general">What I am working/doing on now:</p>
+      <ul className="arrow-list">
+        <li className="li-item">
+          Conducting reserach at the University of Washington's{' '}
+          <a
+            href="https://makeabilitylab.cs.washington.edu/"
+            className="label-red link"
+          >
+            Makeability Lab
+          </a>
+          , using computer vision, crowdsoucing, and online map imagery with the
+          goal to transform the ways in which accessibility information is
+          collected and visualized for every sidewalk, street, and building
+          facade across the globe.
+        </li>
+      </ul>
+      <p className="component-text-general">What I have done in the past:</p>
+      <ul className="arrow-list">
+        <li className="li-item">
+          Co-founded{' '}
+          <a href="https://spogo.us/" className="label-green link">
+            Spogo
+          </a>
+          , a platform to connect college athletes to monetizable opportunities.
+          <ul className="arrow-list">
+            <li className="li-item">
+              Generated <span className="label-lightblue">Pre-Seed</span>{' '}
+              investor interest.
+            </li>
+            <li className="li-item">
+              Top 10% (out of 15,000 apps worldwide) of all{' '}
+              <a
+                href="https://www.ycombinator.com/"
+                className="label-orange link"
+              >
+                Y-Combinator
+              </a>
+              applications for the W22 batch.
+            </li>
+            <li className="li-item">
+              Mentored by two{' '}
+              <span className="label-darkblue">successful entrepenuers</span>{' '}
+              (one recently sold his company to Microsoft 🤯)
+            </li>
+            <li className="li-item">
+              Learned a <span className="label-grey">ton!</span>
+            </li>
+            <li className="li-item">
+              Although, I have stopped working on Spogo, I'm excited about my
+              future in the <span className="label-green">start-up</span> world
+              🌎!
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul className="arrow-list">
+        <li className="li-item">
+          Interned at{' '}
+          <a href="https://e24tech.com/" className="label-darkblue link">
+            e24 Technolgies
+          </a>
+          .
+          <ul className="arrow-list">
+            <li className="li-item">
+              Used Python and the{' '}
+              <span className="label-red">NLTK Toolkit</span> to transcribe
+              phone conversations to a short summary with key points and
+              insights.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul className="arrow-list">
+        <li className="li-item">
+          <span className="label-yellow">
+            Founded Technolgy Student Association Chapter
+          </span>{' '}
+          at Woodinville High School.
+        </li>
+        <li className="li-item">
+          Placed 3rd in State FBLA{' '}
+          <span className="label-lightblue">
+            Mobile Application Development
+          </span>{' '}
+          Competition.
+        </li>
+      </ul>
       <hr className="component-divider" />
       {/* divider */}
       <p style={{ display: 'flex', alignItems: 'center' }}>
-        <span className="component-header">A peek into my life.</span> 👀
+        <span className="component-header">
+          A peek into <span style={{ color: '#594F4F' }}>my life.</span>
+        </span>{' '}
+        👀
       </p>
       {/* <p className="component-text-general">This the real me.</p> */}
       <div className="first-three">
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <p className="component-header">Watching...</p>
           <p className="list-component-container">
-            Ted Lasson
+            Ted Lasso
             <br />
             The Morning Show
             <br />
