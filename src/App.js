@@ -87,7 +87,7 @@ function App() {
         </span>{' '}
         🏃
       </p>
-      <p className="component-text-general">What I am working/doing on now:</p>
+      <p className="component-text-general">What I am working on now:</p>
       <ul className="arrow-list">
         <li className="li-item">
           Conducting reserach at the University of Washington's{' '}
@@ -101,6 +101,17 @@ function App() {
           goal to transform the ways in which accessibility information is
           collected and visualized for every sidewalk, street, and building
           facade across the globe.
+        </li>
+        <li>
+          Creating a{' '}
+          <span className="label-green">machine learning model</span>
+          to predict baseball game outcomes and individual stats for each
+          player.
+        </li>
+        <li>
+          Learning
+          <span className="label-orange">blockchain and web3</span>
+          development.
         </li>
       </ul>
       <p className="component-text-general">What I have done in the past:</p>
