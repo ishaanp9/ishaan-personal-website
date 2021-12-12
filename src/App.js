@@ -103,15 +103,13 @@ function App() {
           facade across the globe.
         </li>
         <li>
-          Creating a{' '}
-          <span className="label-green">machine learning model</span>
+          Creating a <span className="label-green">machine learning model</span>
           to predict baseball game outcomes and individual stats for each
           player.
         </li>
         <li>
-          Learning
-          <span className="label-orange">blockchain and web3</span>
-          development.
+          Learning blockchain and web3 development. Specifically
+          <span className="label-orange">solidity</span> development!
         </li>
       </ul>
       <p className="component-text-general">What I have done in the past:</p>
