@@ -284,7 +284,7 @@ function App() {
       <hr className="component-divider" />
       {/* divider */}
 
-      <p>Copyright Ishaan Puri</p>
+      <p>Made with ❤️ by Ishaan Puri</p>
       <p>Credit to Varun Shenoy for design</p>
       <p>Updated December 2021</p>
     </div>
