@@ -240,3 +240,23 @@
 .link::after {
   content: " ⮐" ;
 }
+
+.hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+
+  .App {
+    width: 95%;
+    position: relative;
+    /* max-width: 768px; */
+    margin: 7% auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}

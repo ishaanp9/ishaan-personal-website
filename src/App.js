@@ -30,7 +30,14 @@ function App() {
         </p>
       </div>
       <div className="links-container">
-        <a className="link-item label-orange">email</a>
+        <p
+          onClick={() => {
+            window.open('mailto:ishaanp9@uw.edu');
+          }}
+          className="link-item label-orange hover"
+        >
+          email
+        </p>
         <a className="link-item label-yellow">resume</a>
         <a
           href="https://github.com/ishaanp9"
