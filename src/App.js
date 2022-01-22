@@ -1,6 +1,7 @@
 import './App.css';
 import WebFont from 'webfontloader';
 import React, { useState, useEffect } from 'react';
+import Pdf from './PDF.pdf';
 
 function App() {
   useEffect(() => {
@@ -38,7 +39,9 @@ function App() {
         >
           email
         </p>
-        <a className="link-item label-yellow">resume</a>
+        <a href={Pdf} target="_blank" className="link-item label-yellow">
+          resume
+        </a>
         <a
           href="https://github.com/ishaanp9"
           target="_blank"
