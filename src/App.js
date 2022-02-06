@@ -25,9 +25,8 @@ function App() {
       <div className="update-box-container">
         <p className="update-box-text">
           🚀 <span style={{ fontWeight: 'bold' }}>Currently,</span> working on
-          Project Sidewalk through the Makeability Lab at at UW. Also learning
-          about Blockchain + Web3 and it's applications in the real world. Oh
-          yeah, start-up idea coming soon. Loading...
+          Project Sidewalk through the Makeability Lab at at UW. Oh, I'm also an
+          entrepreneur in residence at DubHacks Next, UW's StartUp Incubator.
         </p>
       </div>
       <div className="links-container">
@@ -86,8 +85,8 @@ function App() {
         Mariners ⚾
         <br />
         <br />
-        Overall, I am interested in product development, user interface design,
-        blockchain, web3, and artificial intellegence (to name a few) ⚙️
+        Overall, I am broadly interested in product development, machine learning, user interface design,
+        and algoritms (to name a few) ⚙️
       </p>
       <hr className="component-divider" />
       {/* divider */}
@@ -118,8 +117,8 @@ function App() {
           player.
         </li>
         <li>
-          Learning blockchain and web3 development. Specifically
-          <span className="label-orange">solidity</span> development!
+          Meeting some of the smartest people at
+          <span className="label-orange">DubHacks</span> Next!
         </li>
       </ul>
       <p className="component-text-general">What I have done in the past:</p>
@@ -234,11 +233,11 @@ function App() {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <p className="component-header">Inspired by...</p>
           <p className="list-component-container">
-            Justin Kan
+            Elon Musk
             <br />
             Garry Tan
             <br />
-            Sundar Pichai
+            Lex Fridman
             <br />
             Russell Wilson
             <br />
