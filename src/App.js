@@ -86,7 +86,7 @@ function App() {
         <br />
         <br />
         Overall, I am broadly interested in product development, machine learning, user interface design,
-        and algoritms (to name a few) ⚙️
+        and algorithms (to name a few) ⚙️
       </p>
       <hr className="component-divider" />
       {/* divider */}
