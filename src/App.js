@@ -24,9 +24,9 @@ function App() {
       </p>
       <div className="update-box-container">
         <p className="update-box-text">
-          🚀 <span style={{ fontWeight: 'bold' }}>Currently,</span> working on
-          Project Sidewalk through the Makeability Lab at at UW. Oh, I'm also an
-          entrepreneur in residence at DubHacks Next, UW's StartUp Incubator.
+          🚀 <span style={{ fontWeight: 'bold' }}>Currently,</span> working as a
+          Software Engineering Intern on the Application Experience Team at
+          <span style={{ fontWeight: 'bold' }}> ChartHop</span> 🐇
         </p>
       </div>
       <div className="links-container">
@@ -81,12 +81,11 @@ function App() {
       <p className="component-text-general">
         I'm a 19 y/o college student with a passion for amazing products and new
         technologies. In my free time, I love to code, work out, listen to
-        podcasts, read, and keep up with the Seattle Seahawks and Seattle
-        Mariners ⚾
+        podcasts, read, and keep up with the Seattle Mariners ⚾
         <br />
         <br />
-        Overall, I am broadly interested in product development, machine learning, user interface design,
-        and algorithms (to name a few) ⚙️
+        Overall, I am broadly interested in product development, backend
+        technologies, machine learning, and databases(to name a few) ⚙️
       </p>
       <hr className="component-divider" />
       {/* divider */}
@@ -96,33 +95,45 @@ function App() {
         </span>{' '}
         🏃
       </p>
-      <p className="component-text-general">What I am working on now:</p>
+      <p className="component-text-general">What I am doing now:</p>
       <ul className="arrow-list">
         <li className="li-item">
-          Conducting reserach at the University of Washington's{' '}
+          Working as a Software Engineering Intern at
+          <a href="https://www.charthop.com/" className="label-red link">
+            ChartHop
+          </a>
+          on the Application Experience Team.
+        </li>
+        <li>
+          Creating a{' '}
+          <span className="label-green">baseball prediction game</span>
+          similar to Investr where you can buy player "stock" that increases and
+          decreases based on their game preformaces.
+        </li>
+      </ul>
+      <p className="component-text-general">What I have done in the past:</p>
+      <ul className="arrow-list">
+        <li>
+          Was an entrepenuer in residence at
+          <span className="label-orange">DubHacks</span> Next, UW's student
+          incubator.
+        </li>
+        <li>
+          Built <span className="label-green">Colley</span>
+          ,a platform for prospective students to view crowd-sourced data provided
+          by past college applicants with over 60+ colleges and 200+ datapoints.
+        </li>
+        <li className="li-item">
+          Conducted reserach at the University of Washington's{' '}
           <a
             href="https://makeabilitylab.cs.washington.edu/"
             className="label-red link"
           >
             Makeability Lab
           </a>
-          , using computer vision, crowdsoucing, and online map imagery with the
-          goal to transform the ways in which accessibility information is
-          collected and visualized for every sidewalk, street, and building
-          facade across the globe.
+          , where I worked on the Sidewalk Gallery and helped process thousands
+          of validations weekly.
         </li>
-        <li>
-          Creating a <span className="label-green">machine learning model</span>
-          to predict baseball game outcomes and individual stats for each
-          player.
-        </li>
-        <li>
-          Meeting some of the smartest people at
-          <span className="label-orange">DubHacks</span> Next!
-        </li>
-      </ul>
-      <p className="component-text-general">What I have done in the past:</p>
-      <ul className="arrow-list">
         <li className="li-item">
           Co-founded{' '}
           <a href="https://spogo.us/" className="label-green link">
@@ -205,29 +216,29 @@ function App() {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <p className="component-header">Watching...</p>
           <p className="list-component-container">
-            Ted Lasso
+            Stranger Things
             <br />
-            The Morning Show
+            Modern Family
             <br />
-            Ballers
+            The Grey Man
             <br />
-            Attack on Titan
+            All American
             <br />
-            The Daily Show
+            Andrew Schultz Comedy Special
           </p>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <p className="component-header">Listening to...</p>
           <p className="list-component-container">
-            J. Cole
+            50 Cent
             <br />
             Ye
             <br />
-            Cordae
+            Queen
             <br />
-            Kay Flock
+            Nav
             <br />
-            Silk Sonic
+            Drake
           </p>
         </div>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -239,9 +250,9 @@ function App() {
             <br />
             Lex Fridman
             <br />
-            Russell Wilson
+            Julio Rodriguez
             <br />
-            J. Cole
+            Giannis Antetokounmpo
           </p>
         </div>
       </div>
@@ -250,7 +261,7 @@ function App() {
           <p className="component-header">Reading...</p>
           <p className="list-component-container">
             <div className="list-component-item">
-              <span className="label-orange">Etherum</span> by Henning Dedrich
+              <span className="label-orange">The Upstarts</span> by Brad Stone
             </div>
             <br />
             <div className="list-component-item">
@@ -259,18 +270,18 @@ function App() {
             </div>
             <br />
             <div className="list-component-item">
-              <span className="label-darkblue">The Start-up of You</span> by
-              Reid Hoffman
+              <span className="label-darkblue">Hatching Twitter</span> by Nick
+              Bilton
             </div>
             <br />
             <div className="list-component-item">
-              <span className="label-lightblue">Zero to One</span> by Peter
-              Thiel
+              <span className="label-lightblue">Bad Blood</span> by John
+              Carreyrou
             </div>
             <br />
             <div className="list-component-item">
-              <span className="label-green">Cracking the Coding Interview</span>{' '}
-              by Gayle Laakmann McDowell
+              <span className="label-green">The Cold Start Problem</span> by
+              Andrew Chen
             </div>
           </p>
         </div>
@@ -282,7 +293,7 @@ function App() {
             <br />
             HackerNews
             <br />
-            Reddit (r/mariners, r/seahawks, r/csMajors)
+            Reddit (r/mariners, r/baseball, r/csMajors)
             <br />
             Twitter
             <br />
@@ -295,7 +306,7 @@ function App() {
 
       <p>Made with ❤️ by Ishaan Puri</p>
       <p>Credit to Varun Shenoy for design</p>
-      <p>Updated December 2021</p>
+      <p>Updated July 2022</p>
     </div>
   );
 }
