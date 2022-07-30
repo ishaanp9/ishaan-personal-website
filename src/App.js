@@ -1,7 +1,7 @@
 import './App.css';
 import WebFont from 'webfontloader';
 import React, { useState, useEffect } from 'react';
-import Pdf from './PDF.pdf';
+import resume from './PuriIshaan2024.pdf';
 
 function App() {
   useEffect(() => {
@@ -32,13 +32,13 @@ function App() {
       <div className="links-container">
         <p
           onClick={() => {
-            window.open('mailto:ishaanp9@uw.edu');
+            window.open('mailto:ishaanp090@gmail.com');
           }}
           className="link-item label-orange hover"
         >
           email
         </p>
-        <a href={Pdf} target="_blank" className="link-item label-yellow">
+        <a href={resume} target="_blank" className="link-item label-yellow">
           resume
         </a>
         <a
